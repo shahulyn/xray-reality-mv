@@ -7,7 +7,7 @@ sudo systemctl stop xray
 sudo rm /usr/bin/xray
 
 # Remove the Xray configuration file
-sudo rm /etc/xray/config.json
+sudo rm /usr/local/etc/xray/config.json
 
 # Remove the Xray service file
 sudo rm /etc/systemd/system/xray.service
