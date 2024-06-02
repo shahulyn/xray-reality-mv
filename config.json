@@ -38,7 +38,7 @@
           {
             "email": "",
             "id": "",
-            "flow": ""
+            "flow": "xtls-rprx-vision"
           }
         ],
         "decryption": "none"
