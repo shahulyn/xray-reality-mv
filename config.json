@@ -20,7 +20,7 @@
                 "security": "reality",
                 "realitySettings": {
                     "dest": "1.1.1.1:443",
-                    "serverNames": [],
+                    "serverNames": ["www.dhiraagu.com.mv"],
                     "privateKey": "",
                     "shortIds": []
                 }
