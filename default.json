@@ -1,6 +1,6 @@
 {
     "name": "vless+tls+reality",
-    "email":"",
+    "email":"test",
     "port": 443,
     "sni": "www.speedtest.net",
     "path": "%2F"
