@@ -1,45 +1,31 @@
-{
-    "log": {
-        "loglevel": "debug"
-    },
-    "inbounds": [
-        {
-            "port": 443, 
-            "protocol": "vless",
-            "settings": {
-                "clients": [
-                    {
-                        "id": "",
-                        "flow": "xtls-rprx-vision"
-                    }
-                ],
-                "decryption": "none"
-            },
-            "streamSettings": {
-                "network": "tcp",
-                "security": "reality",
-                "realitySettings": {
-                    "dest": "www.dhiraagu.com.mv:443",
-                    "serverNames": ["www.dhiraagu.com.mv"],
-                    "privateKey": "",
-                    "shortIds": []
-                }
-            },
-            "sniffing": {
-                "enabled": true,
-                "destOverride": [
-                    "http",
-                    "tls",
-                    "quic"
-                ],
-                "routeOnly": true
+      {
+         "listen":"0.0.0.0",
+         "port":443,
+         "protocol":"vless",
+         "settings":{
+            "clients":[
+               {
+                  "id":"",
+                  "flow":"xtls-rprx-vision"
+               }
+            ],
+            "decryption":"none"
+         },
+         "streamSettings":{
+            "network":"tcp",
+            "security":"reality",
+            "realitySettings":{
+               "show":false,
+               "dest":"www.speedtest.net:443",
+               "xver":0,
+               "serverNames":[
+                  "www.speedtest.net"
+               ],
+               "privateKey":"",
+               "minClientVer":"1.8.0",
+               "maxClientVer":"",
+               "maxTimeDiff":0,
+               "shortIds":[""
+               ]
             }
-        }
-    ],
-    "outbounds": [
-        {
-            "protocol": "freedom",
-            "tag": "direct"
-        }
-    ]
-}
+         }
