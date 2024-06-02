@@ -1,7 +1,7 @@
 {
     "name": "vless+tls+h2+reality",
-    "email":"sajjaddg",
-    "port": 8000,
-    "sni": "www.openstreetmap.org",
+    "email":"shahulyn",
+    "port": 443,
+    "sni": "www.dhiraagu.com.mv",
     "path": "%2F"
 }
