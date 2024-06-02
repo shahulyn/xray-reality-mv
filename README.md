@@ -4,13 +4,13 @@ This is a Bash script that installs Xray Beta and downloads the configuration fo
 ## Installation Guide
 just need you to run this command
 ```
- bash -c "$(curl -L https://raw.githubusercontent.com/sajjaddg/xray-reality/master/install.sh)"
+ bash -c "$(curl -L https://raw.githubusercontent.com/shahulyn/xray-reality-mv/master/install.sh)"
 ``` 
 and it will do the rest for you.
 
 ## Uninstallation guide
 ```
- bash -c "$(curl -L https://raw.githubusercontent.com/sajjaddg/xray-reality/master/uninstall.sh)"
+ bash -c "$(curl -L https://raw.githubusercontent.com/shahulyn/xray-reality-mv/master/uninstall.sh)"
 ``` 
 
 ## Installation Guide with Docker 
