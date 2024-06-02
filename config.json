@@ -92,7 +92,7 @@
         "type": "field"
       },
       {
-        "domain": ["www.dhiraagu.com.mv"],
+        "domain": ["dhiraagu.com.mv"],
         "type": "field",
         "outboundTag": "blocked"
       },
