@@ -1,32 +1,39 @@
-      {
-         "listen":"0.0.0.0",
-         "port":443,
-         "protocol":"vless",
-         "settings":{
-            "clients":[
-               {
-                  "id":"",
-                  "flow":"xtls-rprx-vision"
-               }
-            ],
-            "decryption":"none"
-         },
-         "streamSettings":{
-            "network":"tcp",
-            "security":"reality",
-            "realitySettings":{
-               "show":false,
-               "dest":"www.speedtest.net:443",
-               "xver":0,
-               "serverNames":[
-                  "www.speedtest.net"
-               ],
-               "privateKey":"",
-               "minClientVer":"1.8.0",
-               "maxClientVer":"",
-               "maxTimeDiff":0,
-               "shortIds":[""
-               ]
+{
+    "inbounds": [
+        {
+            "listen": "0.0.0.0",
+            "port": 443,
+            "protocol": "vless",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "", 
+                        "flow": "xtls-rprx-vision"
+                    }
+                ],
+                "decryption": "none"
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "reality",
+                "realitySettings": {
+                    "show": false,
+                    "dest": "www.dhiraagu.com.mv:443",
+                    "xver": 0,
+                    "serverNames": [
+                        "dhiraagu.com.mv",
+                        "www.dhiraagu.com.mv"
+                    ],
+                    "privateKey": "",
+                    "minClientVer": "",
+                    "maxClientVer": "",
+                    "maxTimeDiff": 0,
+                    "shortIds": [
+                        "",
+                        ""
+                    ]
+                }
             }
-         },
-      }
+        }
+    ]
+}
