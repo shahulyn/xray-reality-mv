@@ -64,4 +64,4 @@ docker rm -f xrayreality
 ## Note
 1. I have only tested it on Ubuntu 22 arm64 and wrote it for that system. 
 ## ToDo
-- [ ] bypass mobile throttle speed and restrictions.
+- [ ] 
