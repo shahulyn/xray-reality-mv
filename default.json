@@ -1,6 +1,6 @@
 {
-    "name": "vless+tls+h2+reality",
-    "email":"shahulynai@gmail.com",
+    "name": "vless+tls+reality",
+    "email":"",
     "port": 443,
     "sni": "www.dhiraagu.com.mv",
     "path": "%2F"
