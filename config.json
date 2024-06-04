@@ -1,13 +1,15 @@
 {
+    "log": {
+        "loglevel": "debug"
+    },
     "inbounds": [
         {
-            "listen": "0.0.0.0",
-            "port": 443,
+            "port": 443, 
             "protocol": "vless",
             "settings": {
                 "clients": [
                     {
-                        "id": "", 
+                        "id": "",
                         "flow": "xtls-rprx-vision"
                     }
                 ],
@@ -17,22 +19,31 @@
                 "network": "tcp",
                 "security": "reality",
                 "realitySettings": {
-                    "show": false,
-                    "dest": "www.dhiraagu.com.mv:443",
-                    "xver": 0,
+                    "dest": "",
                     "serverNames": [
-                        "dhiraagu.com.mv",
-                        "www.dhiraagu.com.mv"
+                        ""
                     ],
                     "privateKey": "",
-                    "minClientVer": "",
-                    "maxClientVer": "",
-                    "maxTimeDiff": 0,
                     "shortIds": [
-                        ""
+                        "0123456789abcdef"
                     ]
                 }
+            },
+            "sniffing": {
+                "enabled": true,
+                "destOverride": [
+                    "http",
+                    "tls",
+                    "quic"
+                ],
+                "routeOnly": true
             }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "freedom",
+            "tag": "direct"
         }
     ]
 }
