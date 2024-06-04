@@ -1,6 +1,5 @@
 {
     "name": "vless+tls+reality",
-    "email":"test",
     "port": 443,
     "sni": "www.dhiraagu.com.mv",
     "path": "%2F"
