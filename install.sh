@@ -8,7 +8,6 @@ curl -s https://raw.githubusercontent.com/shahulyn/xray-reality-mv/master/defaul
 
 # Extract the desired variables using jq
 name=$(jq -r '.name' config.json)
-email=$(jq -r '.email' config.json)
 port=$(jq -r '.port' config.json)
 sni=$(jq -r '.sni' config.json)
 path=$(jq -r '.path' config.json)
@@ -32,9 +31,8 @@ newJson=$(echo "$json" | jq \
     --arg port "$port" \
     --arg sni "$sni" \
     --arg path "$path" \
-    --arg email "$email" \
+    
     '.inbounds[0].port= '"$(expr "$port")"' |
-     .inbounds[0].settings.clients[0].email = $email |
      .inbounds[0].settings.clients[0].id = $uuid |
      .inbounds[0].streamSettings.realitySettings.dest = $sni + ":443" |
      .inbounds[0].streamSettings.realitySettings.serverNames += ["'$sni'", "'$sni'"] |
