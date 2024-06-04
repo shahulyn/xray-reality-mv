@@ -2,6 +2,6 @@
     "name": "vless+tls+reality",
     "email":"test",
     "port": 443,
-    "sni": "www.speedtest.net",
+    "sni": "www.dhiraagu.com.mv",
     "path": "%2F"
 }
