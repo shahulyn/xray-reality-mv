@@ -19,7 +19,7 @@
                 "network": "tcp",
                 "security": "reality",
                 "realitySettings": {
-                    "dest": "www.google.com:443",
+                    "dest": "",
                     "serverNames": [
                         ""
                     ],
