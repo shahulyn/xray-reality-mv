@@ -24,7 +24,7 @@ curl -fsSL https://get.docker.com | sh
 ```
 1. clone this project 
 ``` bash
-git clone https://github.com/shahulyn/xray-reality-mv && cd xray-reality
+git clone https://github.com/shahulyn/xray-reality-mv && cd xray-reality-mv
 ```
 2. build docker image 
 ``` bash
