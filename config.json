@@ -1,10 +1,10 @@
 {
     "log": {
-        "loglevel": "debug"
+        "loglevel": "error"
     },
     "inbounds": [
         {
-            "port": 443, 
+            "port": 443,
             "protocol": "vless",
             "settings": {
                 "clients": [
@@ -21,29 +21,19 @@
                 "realitySettings": {
                     "dest": "",
                     "serverNames": [
-                        ""
+                        "www.dhiraagu.com.mv"
                     ],
                     "privateKey": "",
                     "shortIds": [
                         ""
                     ]
                 }
-            },
-            "sniffing": {
-                "enabled": true,
-                "destOverride": [
-                    "http",
-                    "tls",
-                    "quic"
-                ],
-                "routeOnly": true
             }
         }
     ],
     "outbounds": [
         {
-            "protocol": "freedom",
-            "tag": "direct"
+            "protocol": "freedom"
         }
     ]
 }
