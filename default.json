@@ -1,6 +1,6 @@
 {
     "name": "vless+tls+reality",
     "port": 443,
-    "sni": "www.google.com",
+    "sni": "www.dhiraagu.com.mv",
     "path": "%2F"
 }
